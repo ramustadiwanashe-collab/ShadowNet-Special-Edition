@@ -1,0 +1,16 @@
+# ShadowNet Flask configuration
+SECRET_KEY=replace-with-a-long-random-secret-key
+
+# Database
+DATABASE_URL=sqlite:///shadownet.db
+
+# Application
+FLASK_ENV=production
+
+# ShadowAI
+AI_API_KEY=your-ai-api-key-here
+AI_MODEL=your-ai-model-name
+
+# Premium payments
+PAYMENT_SECRET_KEY=your-payment-secret-key
+PAYMENT_WEBHOOK_SECRET=your-payment-webhook-secret
